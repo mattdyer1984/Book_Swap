@@ -1,0 +1,72 @@
+.claim-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #CAFE48;
+    padding: 20px;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.score{
+    font-weight: 500;
+}
+
+.claim-button{
+    background-color: #CAFE48;
+    color: #220C10;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    border: solid #220C10 2px;
+}
+
+.claim-button:hover{
+    background-color: #220C10;
+    color: #CAFE48;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    border: solid #CAFE48 2px;
+    cursor: pointer;
+}
+
+.input{
+    border: none;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    
+}
+
+input:focus {
+    outline: none;
+    padding-left: 5px;
+    color: #8783D1;
+  }
+
+  .label{
+    font-size: 1rem;
+    padding-bottom: 2px;
+  }
+
+  ::placeholder{
+    padding-left: 5px;
+    color: #8783D1;
+  }
+
+  .claimed{
+    color: #8783D1;
+    font-weight: 600;
+  }
+
+  .heading{
+    font-weight: 600;
+  }
+
+  .error{
+    color: red;
+    font-size: 1rem;
+    margin-top: 4px;
+  }

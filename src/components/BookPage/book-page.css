@@ -1,0 +1,66 @@
+.bookPageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookpage{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px 150px;
+    align-items: start;
+    width: 1000px;
+    gap: 20px;
+}
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+
+}
+
+.lef-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    align-content: end;
+}
+
+p, #review-scores {
+    text-align: left;
+    margin: 4px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h1{
+    text-align: left;
+    margin: 4px 0;
+    font-size:  1.8rem;
+}
+
+@media screen and (max-width: 1000px){
+
+    .bookpage{
+     
+        grid-template-columns: 1fr;
+        margin: 50px 150px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .lef-col{
+        align-items: center;
+        align-content: end;
+    }
+
+    .right-col{
+        align-items: center;
+        align-content: start;
+    
+    }
+}

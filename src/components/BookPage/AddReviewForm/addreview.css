@@ -1,0 +1,80 @@
+.review-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #cafe48;
+  padding: 20px;
+  gap: 10px;
+  margin: 20px 0;
+  width: 450px;
+}
+
+.review-title {
+  font-weight: 600;
+  text-align: center;
+}
+
+#rating {
+  border: none;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+}
+
+#name {
+  border: none;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+}
+
+.label-names {
+  margin-top: 10px;
+  margin-bottom: -8px;
+}
+
+#review {
+  height: 100px;
+  border: none;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+}
+
+::placeholder {
+  padding-left: 5px;
+  color: #8783d1;
+}
+
+.submit {
+  background-color: #CAFE48;
+  color: #220C10;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  border: solid #220C10 2px;
+}
+
+.submit:hover {
+  background-color: #220c10;
+  color: #cafe48;
+  font-size: 1.2rem;
+  border: solid #cafe48 2px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -6px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 900px) { 
+  .review-form{
+    width: 280px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) { 
+  .review-form{
+    width: 220px;
+  }
+  
+}

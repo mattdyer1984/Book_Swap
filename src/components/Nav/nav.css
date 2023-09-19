@@ -1,0 +1,66 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color: #CAFE48;
+    height: 30px;
+    padding: 15px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #220C10;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+.right-links a {
+    padding: 10px;
+    font-size: 1.4rem;
+    color: #220C10;
+}
+
+.right-links a.active  {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #220C10;
+    text-decoration-thickness: 3px;
+
+}
+
+#homepage{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #220C10;
+    text-decoration-thickness: 3px;
+}
+
+
+.bookSwap{
+    color: #220C10;
+}
+
+@media screen and (max-width: 800px) {
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* flex-wrap: wrap; */
+        height: auto;
+    }
+
+    a:link {
+        font-size: 1.7rem;
+    }
+
+    .right-links a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        padding-bottom: 0;
+    }
+}
